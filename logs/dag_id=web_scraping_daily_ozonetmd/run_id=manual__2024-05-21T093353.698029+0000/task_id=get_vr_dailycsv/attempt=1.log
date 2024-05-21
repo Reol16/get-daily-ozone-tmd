@@ -1,0 +1,152 @@
+[2024-05-21T09:34:00.579+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-21T09:34:00.607+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraping_daily_ozonetmd.get_vr_dailycsv manual__2024-05-21T09:33:53.698029+00:00 [queued]>
+[2024-05-21T09:34:00.624+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraping_daily_ozonetmd.get_vr_dailycsv manual__2024-05-21T09:33:53.698029+00:00 [queued]>
+[2024-05-21T09:34:00.630+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 7
+[2024-05-21T09:34:00.666+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): get_vr_dailycsv> on 2024-05-21 09:33:53.698029+00:00
+[2024-05-21T09:34:00.717+0000] {standard_task_runner.py:63} INFO - Started process 325 to run task
+[2024-05-21T09:34:01.511+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'web_scraping_daily_ozonetmd', 'get_vr_dailycsv', 'manual__2024-05-21T09:33:53.698029+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/daily_ozonetmd_bsoup4.py', '--cfg-path', '/tmp/tmpnh6dt80h']
+[2024-05-21T09:34:01.513+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask get_vr_dailycsv
+[2024-05-21T09:34:07.678+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-05-21T09:34:07.784+0000] {task_command.py:426} INFO - Running <TaskInstance: web_scraping_daily_ozonetmd.get_vr_dailycsv manual__2024-05-21T09:33:53.698029+00:00 [running]> on host 32322ad8879e
+[2024-05-21T09:34:07.986+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='web_scraping_daily_ozonetmd' AIRFLOW_CTX_TASK_ID='get_vr_dailycsv' AIRFLOW_CTX_EXECUTION_DATE='2024-05-21T09:33:53.698029+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-21T09:33:53.698029+00:00'
+[2024-05-21T09:34:07.988+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-21T09:34:08.011+0000] {daily_ozonetmd_bsoup4.py:43} INFO - Directory '/opt/***/dags/data/21.05.2024' already exists.
+[2024-05-21T09:34:08.201+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_581301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_581301.csv, skipping download.
+[2024-05-21T09:34:08.206+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_465201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_465201.csv, skipping download.
+[2024-05-21T09:34:08.209+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_432201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_432201.csv, skipping download.
+[2024-05-21T09:34:08.213+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_407301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_407301.csv, skipping download.
+[2024-05-21T09:34:08.217+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_405301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_405301.csv, skipping download.
+[2024-05-21T09:34:08.220+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_354201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_354201.csv, skipping download.
+[2024-05-21T09:34:08.224+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_331401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_331401.csv, skipping download.
+[2024-05-21T09:34:08.227+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_327501.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_327501.csv, skipping download.
+[2024-05-21T09:34:08.230+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_327202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_327202.csv, skipping download.
+[2024-05-21T09:34:08.234+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_310201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_310201.csv, skipping download.
+[2024-05-21T09:34:08.237+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_583201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_583201.csv, skipping download.
+[2024-05-21T09:34:08.241+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_580201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_580201.csv, skipping download.
+[2024-05-21T09:34:08.244+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_570201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_570201.csv, skipping download.
+[2024-05-21T09:34:08.248+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_568502.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_568502.csv, skipping download.
+[2024-05-21T09:34:08.251+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_568501.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_568501.csv, skipping download.
+[2024-05-21T09:34:08.254+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_568401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_568401.csv, skipping download.
+[2024-05-21T09:34:08.257+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_568301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_568301.csv, skipping download.
+[2024-05-21T09:34:08.263+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_567201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_567201.csv, skipping download.
+[2024-05-21T09:34:08.266+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_566202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_566202.csv, skipping download.
+[2024-05-21T09:34:08.270+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_566201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_566201.csv, skipping download.
+[2024-05-21T09:34:08.273+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_564202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_564202.csv, skipping download.
+[2024-05-21T09:34:08.277+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_564201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_564201.csv, skipping download.
+[2024-05-21T09:34:08.281+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_561201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_561201.csv, skipping download.
+[2024-05-21T09:34:08.285+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_560301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_560301.csv, skipping download.
+[2024-05-21T09:34:08.289+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_552401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_552401.csv, skipping download.
+[2024-05-21T09:34:08.293+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_552301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_552301.csv, skipping download.
+[2024-05-21T09:34:08.297+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_552201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_552201.csv, skipping download.
+[2024-05-21T09:34:08.302+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_551401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_551401.csv, skipping download.
+[2024-05-21T09:34:08.306+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_551301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_551301.csv, skipping download.
+[2024-05-21T09:34:08.311+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_551203.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_551203.csv, skipping download.
+[2024-05-21T09:34:08.315+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_551201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_551201.csv, skipping download.
+[2024-05-21T09:34:08.319+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_532201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_532201.csv, skipping download.
+[2024-05-21T09:34:08.323+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_517301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_517301.csv, skipping download.
+[2024-05-21T09:34:08.327+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_517201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_517201.csv, skipping download.
+[2024-05-21T09:34:08.331+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_501201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_501201.csv, skipping download.
+[2024-05-21T09:34:08.335+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_500301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_500301.csv, skipping download.
+[2024-05-21T09:34:08.339+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_500202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_500202.csv, skipping download.
+[2024-05-21T09:34:08.343+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_500201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_500201.csv, skipping download.
+[2024-05-21T09:34:08.346+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_480301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_480301.csv, skipping download.
+[2024-05-21T09:34:08.350+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_480201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_480201.csv, skipping download.
+[2024-05-21T09:34:08.355+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_478301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_478301.csv, skipping download.
+[2024-05-21T09:34:08.359+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_478201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_478201.csv, skipping download.
+[2024-05-21T09:34:08.362+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_474000.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_474000.csv, skipping download.
+[2024-05-21T09:34:08.366+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_459205.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_459205.csv, skipping download.
+[2024-05-21T09:34:08.371+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_459204.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_459204.csv, skipping download.
+[2024-05-21T09:34:08.374+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_459203.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_459203.csv, skipping download.
+[2024-05-21T09:34:08.379+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_459202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_459202.csv, skipping download.
+[2024-05-21T09:34:08.382+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_459201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_459201.csv, skipping download.
+[2024-05-21T09:34:08.386+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_455601.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_455601.csv, skipping download.
+[2024-05-21T09:34:08.390+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_455301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_455301.csv, skipping download.
+[2024-05-21T09:34:08.394+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_455203.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_455203.csv, skipping download.
+[2024-05-21T09:34:08.399+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_455201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_455201.csv, skipping download.
+[2024-05-21T09:34:08.405+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_451301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_451301.csv, skipping download.
+[2024-05-21T09:34:08.409+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_450401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_450401.csv, skipping download.
+[2024-05-21T09:34:08.412+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_450201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_450201.csv, skipping download.
+[2024-05-21T09:34:08.419+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_440401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_440401.csv, skipping download.
+[2024-05-21T09:34:08.423+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_440201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_440201.csv, skipping download.
+[2024-05-21T09:34:08.429+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_438201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_438201.csv, skipping download.
+[2024-05-21T09:34:08.435+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_436401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_436401.csv, skipping download.
+[2024-05-21T09:34:08.440+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_436201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_436201.csv, skipping download.
+[2024-05-21T09:34:08.444+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_432401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_432401.csv, skipping download.
+[2024-05-21T09:34:08.448+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_432301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_432301.csv, skipping download.
+[2024-05-21T09:34:08.451+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_431401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_431401.csv, skipping download.
+[2024-05-21T09:34:08.456+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_431301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_431301.csv, skipping download.
+[2024-05-21T09:34:08.460+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_431201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_431201.csv, skipping download.
+[2024-05-21T09:34:08.464+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_430401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_430401.csv, skipping download.
+[2024-05-21T09:34:08.467+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_430201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_430201.csv, skipping download.
+[2024-05-21T09:34:08.472+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_429601.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_429601.csv, skipping download.
+[2024-05-21T09:34:08.478+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_429301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_429301.csv, skipping download.
+[2024-05-21T09:34:08.482+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_429201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_429201.csv, skipping download.
+[2024-05-21T09:34:08.486+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_426401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_426401.csv, skipping download.
+[2024-05-21T09:34:08.490+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_426201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_426201.csv, skipping download.
+[2024-05-21T09:34:08.494+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_425301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_425301.csv, skipping download.
+[2024-05-21T09:34:08.498+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_425201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_425201.csv, skipping download.
+[2024-05-21T09:34:08.501+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_424301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_424301.csv, skipping download.
+[2024-05-21T09:34:08.506+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_423301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_423301.csv, skipping download.
+[2024-05-21T09:34:08.510+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_419301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_419301.csv, skipping download.
+[2024-05-21T09:34:08.514+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_418000.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_418000.csv, skipping download.
+[2024-05-21T09:34:08.518+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_417201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_417201.csv, skipping download.
+[2024-05-21T09:34:08.523+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_416000.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_416000.csv, skipping download.
+[2024-05-21T09:34:08.527+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_415301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_415301.csv, skipping download.
+[2024-05-21T09:34:08.537+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_414000.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_414000.csv, skipping download.
+[2024-05-21T09:34:08.542+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_411000.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_411000.csv, skipping download.
+[2024-05-21T09:34:08.546+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_410201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_410201.csv, skipping download.
+[2024-05-21T09:34:08.550+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_409301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_409301.csv, skipping download.
+[2024-05-21T09:34:08.554+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_407501.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_407501.csv, skipping download.
+[2024-05-21T09:34:08.557+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_406201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_406201.csv, skipping download.
+[2024-05-21T09:34:08.561+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_405201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_405201.csv, skipping download.
+[2024-05-21T09:34:08.566+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_403201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_403201.csv, skipping download.
+[2024-05-21T09:34:08.570+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_402301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_402301.csv, skipping download.
+[2024-05-21T09:34:08.573+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_400301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_400301.csv, skipping download.
+[2024-05-21T09:34:08.577+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_400201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_400201.csv, skipping download.
+[2024-05-21T09:34:08.580+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_391201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_391201.csv, skipping download.
+[2024-05-21T09:34:08.584+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_388401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_388401.csv, skipping download.
+[2024-05-21T09:34:08.587+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_387401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_387401.csv, skipping download.
+[2024-05-21T09:34:08.591+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_386301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_386301.csv, skipping download.
+[2024-05-21T09:34:08.594+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_383201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_383201.csv, skipping download.
+[2024-05-21T09:34:08.598+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_381301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_381301.csv, skipping download.
+[2024-05-21T09:34:08.601+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_381201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_381201.csv, skipping download.
+[2024-05-21T09:34:08.604+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_380201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_380201.csv, skipping download.
+[2024-05-21T09:34:08.608+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_379402.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_379402.csv, skipping download.
+[2024-05-21T09:34:08.612+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_379401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_379401.csv, skipping download.
+[2024-05-21T09:34:08.617+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_379201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_379201.csv, skipping download.
+[2024-05-21T09:34:08.620+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_378201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_378201.csv, skipping download.
+[2024-05-21T09:34:08.624+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_376401.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_376401.csv, skipping download.
+[2024-05-21T09:34:08.627+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_376301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_376301.csv, skipping download.
+[2024-05-21T09:34:08.630+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_376203.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_376203.csv, skipping download.
+[2024-05-21T09:34:08.634+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_376202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_376202.csv, skipping download.
+[2024-05-21T09:34:08.637+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_376201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_376201.csv, skipping download.
+[2024-05-21T09:34:08.641+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_373301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_373301.csv, skipping download.
+[2024-05-21T09:34:08.644+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_373201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_373201.csv, skipping download.
+[2024-05-21T09:34:08.647+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_363201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_363201.csv, skipping download.
+[2024-05-21T09:34:08.651+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_360201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_360201.csv, skipping download.
+[2024-05-21T09:34:08.654+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_357301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_357301.csv, skipping download.
+[2024-05-21T09:34:08.658+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_357201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_357201.csv, skipping download.
+[2024-05-21T09:34:08.664+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_356301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_356301.csv, skipping download.
+[2024-05-21T09:34:08.669+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_356201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_356201.csv, skipping download.
+[2024-05-21T09:34:08.675+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_353301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_353301.csv, skipping download.
+[2024-05-21T09:34:08.679+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_353201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_353201.csv, skipping download.
+[2024-05-21T09:34:08.682+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_352201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_352201.csv, skipping download.
+[2024-05-21T09:34:08.686+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_351201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_351201.csv, skipping download.
+[2024-05-21T09:34:08.689+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_331402.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_331402.csv, skipping download.
+[2024-05-21T09:34:08.694+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_331301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_331301.csv, skipping download.
+[2024-05-21T09:34:08.702+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_331201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_331201.csv, skipping download.
+[2024-05-21T09:34:08.733+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_330201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_330201.csv, skipping download.
+[2024-05-21T09:34:08.737+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_329201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_329201.csv, skipping download.
+[2024-05-21T09:34:08.741+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_328301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_328301.csv, skipping download.
+[2024-05-21T09:34:08.745+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_328202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_328202.csv, skipping download.
+[2024-05-21T09:34:08.758+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_328201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_328201.csv, skipping download.
+[2024-05-21T09:34:08.764+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_303301.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_303301.csv, skipping download.
+[2024-05-21T09:34:08.768+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_303201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_303201.csv, skipping download.
+[2024-05-21T09:34:08.774+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_300202.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_300202.csv, skipping download.
+[2024-05-21T09:34:08.778+0000] {daily_ozonetmd_bsoup4.py:62} INFO - File daily_VR_300201.csv already exists at /opt/***/dags/data/21.05.2024/daily_VR_300201.csv, skipping download.
+[2024-05-21T09:34:08.779+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-21T09:34:08.780+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-21T09:34:08.806+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=web_scraping_daily_ozonetmd, task_id=get_vr_dailycsv, execution_date=20240521T093353, start_date=20240521T093400, end_date=20240521T093408
+[2024-05-21T09:34:08.867+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-21T09:34:08.908+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-21T09:34:08.910+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

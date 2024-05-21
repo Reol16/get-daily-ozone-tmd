@@ -1,0 +1,152 @@
+[2024-05-21T09:33:43.734+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-21T09:33:43.759+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraping_daily_ozonetmd.get_vr_dailycsv scheduled__2024-05-20T00:00:00+00:00 [queued]>
+[2024-05-21T09:33:43.768+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraping_daily_ozonetmd.get_vr_dailycsv scheduled__2024-05-20T00:00:00+00:00 [queued]>
+[2024-05-21T09:33:43.904+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 7
+[2024-05-21T09:33:43.917+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): get_vr_dailycsv> on 2024-05-20 00:00:00+00:00
+[2024-05-21T09:33:43.940+0000] {standard_task_runner.py:63} INFO - Started process 309 to run task
+[2024-05-21T09:33:43.989+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'web_scraping_daily_ozonetmd', 'get_vr_dailycsv', 'scheduled__2024-05-20T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/daily_ozonetmd_bsoup4.py', '--cfg-path', '/tmp/tmpe3lxpr1e']
+[2024-05-21T09:33:43.991+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask get_vr_dailycsv
+[2024-05-21T09:33:44.063+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-05-21T09:33:44.216+0000] {task_command.py:426} INFO - Running <TaskInstance: web_scraping_daily_ozonetmd.get_vr_dailycsv scheduled__2024-05-20T00:00:00+00:00 [running]> on host 32322ad8879e
+[2024-05-21T09:33:44.348+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='web_scraping_daily_ozonetmd' AIRFLOW_CTX_TASK_ID='get_vr_dailycsv' AIRFLOW_CTX_EXECUTION_DATE='2024-05-20T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-20T00:00:00+00:00'
+[2024-05-21T09:33:44.365+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-21T09:33:44.381+0000] {daily_ozonetmd_bsoup4.py:41} INFO - Directory '/opt/***/dags/data/21.05.2024' was created.
+[2024-05-21T09:33:44.734+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_581301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_581301.csv
+[2024-05-21T09:33:44.845+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_465201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_465201.csv
+[2024-05-21T09:33:44.957+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_432201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_432201.csv
+[2024-05-21T09:33:45.089+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_407301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_407301.csv
+[2024-05-21T09:33:45.195+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_405301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_405301.csv
+[2024-05-21T09:33:45.307+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_354201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_354201.csv
+[2024-05-21T09:33:45.417+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_331401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_331401.csv
+[2024-05-21T09:33:45.527+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_327501.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_327501.csv
+[2024-05-21T09:33:45.628+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_327202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_327202.csv
+[2024-05-21T09:33:45.734+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_310201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_310201.csv
+[2024-05-21T09:33:45.825+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_583201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_583201.csv
+[2024-05-21T09:33:45.915+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_580201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_580201.csv
+[2024-05-21T09:33:46.017+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_570201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_570201.csv
+[2024-05-21T09:33:46.104+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_568502.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_568502.csv
+[2024-05-21T09:33:46.196+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_568501.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_568501.csv
+[2024-05-21T09:33:46.286+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_568401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_568401.csv
+[2024-05-21T09:33:46.378+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_568301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_568301.csv
+[2024-05-21T09:33:46.478+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_567201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_567201.csv
+[2024-05-21T09:33:46.578+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_566202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_566202.csv
+[2024-05-21T09:33:46.676+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_566201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_566201.csv
+[2024-05-21T09:33:46.775+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_564202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_564202.csv
+[2024-05-21T09:33:46.870+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_564201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_564201.csv
+[2024-05-21T09:33:46.968+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_561201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_561201.csv
+[2024-05-21T09:33:47.055+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_560301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_560301.csv
+[2024-05-21T09:33:47.159+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_552401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_552401.csv
+[2024-05-21T09:33:47.263+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_552301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_552301.csv
+[2024-05-21T09:33:47.347+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_552201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_552201.csv
+[2024-05-21T09:33:47.456+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_551401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_551401.csv
+[2024-05-21T09:33:47.557+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_551301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_551301.csv
+[2024-05-21T09:33:47.644+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_551203.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_551203.csv
+[2024-05-21T09:33:47.736+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_551201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_551201.csv
+[2024-05-21T09:33:47.845+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_532201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_532201.csv
+[2024-05-21T09:33:47.944+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_517301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_517301.csv
+[2024-05-21T09:33:48.055+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_517201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_517201.csv
+[2024-05-21T09:33:48.144+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_501201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_501201.csv
+[2024-05-21T09:33:48.236+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_500301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_500301.csv
+[2024-05-21T09:33:48.336+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_500202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_500202.csv
+[2024-05-21T09:33:48.434+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_500201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_500201.csv
+[2024-05-21T09:33:48.617+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_480301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_480301.csv
+[2024-05-21T09:33:48.706+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_480201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_480201.csv
+[2024-05-21T09:33:48.805+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_478301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_478301.csv
+[2024-05-21T09:33:48.897+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_478201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_478201.csv
+[2024-05-21T09:33:48.999+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_474000.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_474000.csv
+[2024-05-21T09:33:49.098+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_459205.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_459205.csv
+[2024-05-21T09:33:49.206+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_459204.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_459204.csv
+[2024-05-21T09:33:49.290+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_459203.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_459203.csv
+[2024-05-21T09:33:49.388+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_459202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_459202.csv
+[2024-05-21T09:33:49.488+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_459201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_459201.csv
+[2024-05-21T09:33:49.589+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_455601.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_455601.csv
+[2024-05-21T09:33:49.689+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_455301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_455301.csv
+[2024-05-21T09:33:49.785+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_455203.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_455203.csv
+[2024-05-21T09:33:49.876+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_455201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_455201.csv
+[2024-05-21T09:33:49.960+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_451301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_451301.csv
+[2024-05-21T09:33:50.048+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_450401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_450401.csv
+[2024-05-21T09:33:50.144+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_450201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_450201.csv
+[2024-05-21T09:33:50.242+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_440401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_440401.csv
+[2024-05-21T09:33:50.326+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_440201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_440201.csv
+[2024-05-21T09:33:50.416+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_438201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_438201.csv
+[2024-05-21T09:33:50.513+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_436401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_436401.csv
+[2024-05-21T09:33:50.610+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_436201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_436201.csv
+[2024-05-21T09:33:50.695+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_432401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_432401.csv
+[2024-05-21T09:33:50.779+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_432301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_432301.csv
+[2024-05-21T09:33:50.880+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_431401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_431401.csv
+[2024-05-21T09:33:50.967+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_431301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_431301.csv
+[2024-05-21T09:33:51.061+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_431201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_431201.csv
+[2024-05-21T09:33:51.156+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_430401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_430401.csv
+[2024-05-21T09:33:51.249+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_430201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_430201.csv
+[2024-05-21T09:33:51.333+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_429601.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_429601.csv
+[2024-05-21T09:33:51.429+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_429301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_429301.csv
+[2024-05-21T09:33:51.511+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_429201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_429201.csv
+[2024-05-21T09:33:51.605+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_426401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_426401.csv
+[2024-05-21T09:33:51.697+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_426201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_426201.csv
+[2024-05-21T09:33:51.801+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_425301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_425301.csv
+[2024-05-21T09:33:51.895+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_425201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_425201.csv
+[2024-05-21T09:33:51.987+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_424301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_424301.csv
+[2024-05-21T09:33:52.095+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_423301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_423301.csv
+[2024-05-21T09:33:52.192+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_419301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_419301.csv
+[2024-05-21T09:33:52.278+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_418000.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_418000.csv
+[2024-05-21T09:33:52.373+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_417201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_417201.csv
+[2024-05-21T09:33:52.463+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_416000.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_416000.csv
+[2024-05-21T09:33:52.545+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_415301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_415301.csv
+[2024-05-21T09:33:52.699+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_414000.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_414000.csv
+[2024-05-21T09:33:52.795+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_411000.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_411000.csv
+[2024-05-21T09:33:52.888+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_410201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_410201.csv
+[2024-05-21T09:33:52.986+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_409301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_409301.csv
+[2024-05-21T09:33:53.072+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_407501.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_407501.csv
+[2024-05-21T09:33:53.171+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_406201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_406201.csv
+[2024-05-21T09:33:53.273+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_405201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_405201.csv
+[2024-05-21T09:33:53.369+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_403201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_403201.csv
+[2024-05-21T09:33:53.458+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_402301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_402301.csv
+[2024-05-21T09:33:53.551+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_400301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_400301.csv
+[2024-05-21T09:33:53.655+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_400201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_400201.csv
+[2024-05-21T09:33:53.746+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_391201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_391201.csv
+[2024-05-21T09:33:53.833+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_388401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_388401.csv
+[2024-05-21T09:33:53.930+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_387401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_387401.csv
+[2024-05-21T09:33:54.013+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_386301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_386301.csv
+[2024-05-21T09:33:54.122+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_383201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_383201.csv
+[2024-05-21T09:33:54.212+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_381301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_381301.csv
+[2024-05-21T09:33:54.304+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_381201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_381201.csv
+[2024-05-21T09:33:54.415+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_380201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_380201.csv
+[2024-05-21T09:33:54.513+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_379402.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_379402.csv
+[2024-05-21T09:33:54.655+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_379401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_379401.csv
+[2024-05-21T09:33:54.779+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_379201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_379201.csv
+[2024-05-21T09:33:54.887+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_378201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_378201.csv
+[2024-05-21T09:33:54.982+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_376401.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_376401.csv
+[2024-05-21T09:33:55.105+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_376301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_376301.csv
+[2024-05-21T09:33:55.204+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_376203.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_376203.csv
+[2024-05-21T09:33:55.296+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_376202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_376202.csv
+[2024-05-21T09:33:55.388+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_376201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_376201.csv
+[2024-05-21T09:33:55.486+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_373301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_373301.csv
+[2024-05-21T09:33:55.579+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_373201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_373201.csv
+[2024-05-21T09:33:55.673+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_363201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_363201.csv
+[2024-05-21T09:33:55.769+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_360201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_360201.csv
+[2024-05-21T09:33:55.857+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_357301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_357301.csv
+[2024-05-21T09:33:55.950+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_357201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_357201.csv
+[2024-05-21T09:33:56.042+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_356301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_356301.csv
+[2024-05-21T09:33:56.146+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_356201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_356201.csv
+[2024-05-21T09:33:56.245+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_353301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_353301.csv
+[2024-05-21T09:33:56.350+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_353201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_353201.csv
+[2024-05-21T09:33:56.443+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_352201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_352201.csv
+[2024-05-21T09:33:56.548+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_351201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_351201.csv
+[2024-05-21T09:33:56.638+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_331402.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_331402.csv
+[2024-05-21T09:33:56.734+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_331301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_331301.csv
+[2024-05-21T09:33:56.818+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_331201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_331201.csv
+[2024-05-21T09:33:56.903+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_330201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_330201.csv
+[2024-05-21T09:33:56.990+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_329201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_329201.csv
+[2024-05-21T09:33:57.091+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_328301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_328301.csv
+[2024-05-21T09:33:57.179+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_328202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_328202.csv
+[2024-05-21T09:33:57.282+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_328201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_328201.csv
+[2024-05-21T09:33:57.367+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_303301.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_303301.csv
+[2024-05-21T09:33:57.461+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_303201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_303201.csv
+[2024-05-21T09:33:57.559+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_300202.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_300202.csv
+[2024-05-21T09:33:57.648+0000] {daily_ozonetmd_bsoup4.py:58} INFO - File daily_VR_300201.csv downloaded and saved to /opt/***/dags/data/21.05.2024/daily_VR_300201.csv
+[2024-05-21T09:33:57.650+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-21T09:33:57.655+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-21T09:33:57.691+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=web_scraping_daily_ozonetmd, task_id=get_vr_dailycsv, execution_date=20240520T000000, start_date=20240521T093343, end_date=20240521T093357
+[2024-05-21T09:33:57.732+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-21T09:33:57.770+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-21T09:33:57.773+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

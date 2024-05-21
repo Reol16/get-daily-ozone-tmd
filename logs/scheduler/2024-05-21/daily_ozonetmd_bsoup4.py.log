@@ -1,0 +1,280 @@
+[2024-05-21T09:27:41.458+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:27:41.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:27:41.460+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:27:41.460+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:27:41.694+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:27:41.716+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:27:41.716+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:27:41.736+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:27:41.735+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:27:41.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.469 seconds
+[2024-05-21T09:27:52.615+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:27:52.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:27:52.620+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:27:52.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:27:52.785+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:27:52.795+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:27:52.794+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:27:52.815+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:27:52.815+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:27:53.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.562 seconds
+[2024-05-21T09:28:03.342+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:03.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:28:03.345+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:03.345+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:03.438+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:03.578+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:03.578+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:28:03.763+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:03.763+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:28:04.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.560 seconds
+[2024-05-21T09:28:15.356+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:15.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:28:15.359+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:15.358+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:15.462+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:15.613+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:15.613+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:28:15.627+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:15.627+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:28:16.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.482 seconds
+[2024-05-21T09:28:27.780+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:27.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:28:27.841+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:27.841+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:30.152+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:30.698+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:30.697+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:28:31.037+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:31.036+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:28:31.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 4.245 seconds
+[2024-05-21T09:28:43.785+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:43.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:28:43.873+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:43.870+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:44.092+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:44.125+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:44.124+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:28:44.167+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:44.166+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:28:44.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.505 seconds
+[2024-05-21T09:28:54.375+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:54.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:28:54.383+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:54.382+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:54.715+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:28:55.105+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:55.104+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:28:55.622+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:28:55.621+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:28:56.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.654 seconds
+[2024-05-21T09:29:07.056+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:07.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:29:07.082+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:07.081+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:07.400+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:07.573+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:07.572+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:29:07.848+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:07.848+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:29:07.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.957 seconds
+[2024-05-21T09:29:18.166+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:18.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:29:18.196+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:18.194+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:18.576+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:19.536+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:19.531+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:29:19.841+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:19.840+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:29:20.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 2.116 seconds
+[2024-05-21T09:29:31.486+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:31.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:29:31.517+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:31.516+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:32.707+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:34.079+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:34.078+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:29:34.300+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:34.297+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:29:34.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 2.949 seconds
+[2024-05-21T09:29:44.630+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:44.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:29:44.649+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:44.648+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:45.305+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:45.455+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:45.452+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:29:45.557+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:45.556+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:29:45.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.061 seconds
+[2024-05-21T09:29:56.059+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:56.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:29:56.101+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:29:56.099+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:29:57.803+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:30:00.090+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:30:00.090+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:30:00.336+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:30:00.335+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:30:00.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 4.538 seconds
+[2024-05-21T09:30:11.181+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:30:11.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:30:11.232+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:30:11.227+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:30:11.831+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:30:12.217+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:30:12.215+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:30:12.465+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:30:12.464+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:30:12.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.452 seconds
+[2024-05-21T09:31:06.933+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:06.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:31:07.495+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:07.410+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:11.732+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:12.915+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:12.911+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:31:13.569+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:13.565+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:31:13.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 7.453 seconds
+[2024-05-21T09:31:24.334+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:24.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:31:24.387+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:24.384+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:24.979+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:25.208+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:25.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:31:25.323+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:25.322+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:31:25.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.186 seconds
+[2024-05-21T09:31:35.623+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:35.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:31:35.638+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:35.636+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:35.893+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:36.005+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:36.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:31:36.246+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:36.246+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:31:36.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.719 seconds
+[2024-05-21T09:31:47.314+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:47.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:31:47.347+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:47.342+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:47.854+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:48.016+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:48.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:31:48.120+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:48.119+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:31:48.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.479 seconds
+[2024-05-21T09:31:58.864+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:58.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:31:58.886+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:31:58.886+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:31:59.626+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:02.418+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:02.417+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:32:02.483+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:02.482+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:32:02.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 3.804 seconds
+[2024-05-21T09:32:12.738+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:12.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:32:12.742+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:12.742+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:12.926+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:13.062+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:13.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:32:13.135+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:13.135+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:32:13.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.476 seconds
+[2024-05-21T09:32:23.359+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:23.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:32:23.378+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:23.378+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:23.603+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:23.666+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:23.665+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:32:25.091+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:25.091+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:32:25.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.973 seconds
+[2024-05-21T09:32:35.578+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:35.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:32:35.622+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:35.621+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:36.115+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:36.258+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:36.256+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:32:36.333+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:36.333+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:32:36.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.828 seconds
+[2024-05-21T09:32:47.405+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:47.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:32:47.538+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:47.538+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:48.369+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:48.705+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:48.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:32:48.911+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:48.910+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:32:48.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.742 seconds
+[2024-05-21T09:32:59.146+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:59.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:32:59.163+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:59.162+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:59.359+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:32:59.411+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:59.411+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:32:59.528+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:32:59.527+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:32:59.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.453 seconds
+[2024-05-21T09:33:22.742+0000] {processor.py:161} INFO - Started process (PID=294) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:22.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:33:22.748+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:22.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:23.497+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:23.759+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:23.758+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:33:23.904+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:23.904+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-20 00:00:00+00:00, run_after=2024-05-21 00:00:00+00:00
+[2024-05-21T09:33:23.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.449 seconds
+[2024-05-21T09:33:35.215+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:35.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:33:35.341+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:35.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:36.382+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:36.833+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:36.832+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:33:37.224+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:37.224+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:33:37.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 2.705 seconds
+[2024-05-21T09:33:47.469+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:47.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:33:47.479+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:47.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:47.756+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:47.832+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:47.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:33:47.871+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:47.871+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:33:47.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.473 seconds
+[2024-05-21T09:33:58.074+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:58.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:33:58.081+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:58.080+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:58.249+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:33:58.314+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:58.313+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:33:59.023+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:33:59.023+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:33:59.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 1.416 seconds
+[2024-05-21T09:34:09.707+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:09.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:34:09.711+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:09.711+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:09.870+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:09.900+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:09.899+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:34:09.929+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:09.929+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:34:09.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.266 seconds
+[2024-05-21T09:34:20.186+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:20.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:34:20.193+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:20.192+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:20.362+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:20.409+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:20.408+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:34:20.444+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:20.443+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:34:20.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.302 seconds
+[2024-05-21T09:34:37.725+0000] {processor.py:161} INFO - Started process (PID=336) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:37.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:34:37.795+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:37.794+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:38.082+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:34:38.974+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:38.974+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:34:45.393+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:34:45.393+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:34:51.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 14.049 seconds
+[2024-05-21T09:35:02.674+0000] {processor.py:161} INFO - Started process (PID=341) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:04.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:35:04.440+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:04.440+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:05.250+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:05.820+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:05.819+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:35:06.180+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:06.179+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:35:06.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 3.760 seconds
+[2024-05-21T09:35:16.889+0000] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:16.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:35:16.896+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:16.896+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:17.028+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:17.067+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:17.066+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:35:17.097+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:17.097+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:35:17.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.256 seconds
+[2024-05-21T09:35:27.221+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:27.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:35:27.224+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:27.223+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:27.348+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:27.376+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:27.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:35:27.399+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:27.399+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:35:27.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.210 seconds
+[2024-05-21T09:35:37.551+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:37.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:35:37.554+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:37.554+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:37.729+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:37.772+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:37.772+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:35:37.790+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:37.790+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:35:37.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.349 seconds
+[2024-05-21T09:35:48.041+0000] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:48.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:35:48.045+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:48.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:48.160+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:48.187+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:48.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:35:48.214+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:48.214+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:35:48.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.202 seconds
+[2024-05-21T09:35:58.458+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:58.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:35:58.500+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:58.500+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:58.882+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:35:59.002+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:59.001+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:35:59.075+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:35:59.073+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:35:59.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.691 seconds
+[2024-05-21T09:39:12.173+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:12.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:39:12.176+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:12.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:12.305+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:12.340+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:12.339+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:39:12.361+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:12.361+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:39:12.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.212 seconds
+[2024-05-21T09:39:26.536+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:26.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:39:26.818+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:26.817+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:26.976+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:27.010+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:27.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:39:27.079+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:27.079+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:39:27.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 2.221 seconds
+[2024-05-21T09:39:37.196+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:37.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:39:37.201+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:37.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:37.388+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:37.441+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:37.440+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:39:37.549+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:37.548+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:39:37.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.396 seconds
+[2024-05-21T09:39:47.695+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:47.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/daily_ozonetmd_bsoup4.py for tasks to queue
+[2024-05-21T09:39:47.698+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:47.698+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:47.828+0000] {processor.py:840} INFO - DAG(s) 'web_scraping_daily_ozonetmd' retrieved from /opt/airflow/dags/daily_ozonetmd_bsoup4.py
+[2024-05-21T09:39:47.863+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:47.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-21T09:39:47.889+0000] {logging_mixin.py:188} INFO - [2024-05-21T09:39:47.889+0000] {dag.py:3954} INFO - Setting next_dagrun for web_scraping_daily_ozonetmd to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-21T09:39:47.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/daily_ozonetmd_bsoup4.py took 0.222 seconds
